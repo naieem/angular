@@ -1,0 +1,33 @@
+.page-header h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.page-header{
+    background: #ececec;
+}
+.center-block{
+    text-align: center;
+}
+.main_container{
+    border: 1px solid #000;
+    padding-bottom: 40px;
+}
+.play-button{
+    margin-top: 20px;
+    background: #204d74;
+    color: #fff;
+}
+.play-button:hover{
+    color: #00b3ee;
+    background: #222;
+}
+img{
+    height: 50px;
+    opacity: .5;
+}
+.fullOpacity{
+    opacity: 1;
+}
+/*input[type='radio']{
+    display: none;
+}*/

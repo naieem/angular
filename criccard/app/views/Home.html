@@ -1,0 +1,28 @@
+<div class="row row-centered">
+    {{result}}{{Language}}
+    <li ng-repeat="id in result">{{id.Id}}</li>
+    <div class="col-md-6 col-md-offset-3 text-center">
+        <h1>Create Match</h1>
+        <div class="col-md-10">
+            <input type="text"   value="Bangladesh" ng-model="Team1">
+        </div>
+        <div class="col-md-2">
+<!--            <input type="radio" value="true" name="team" ng-model="Team_Bowling1"  class="team_select">-->
+            <img src="app/img/Soccer-Ball-icon.png" ng-click="firstTeam = !firstTeam" ng-model="Team_Bowling1=firstTeam" ng-class="{fullOpacity:firstTeam}">
+        </div>
+        <div class="col-md-12">
+            VS
+        </div>
+        <div class="col-md-10">
+            <input type="text" value="India"  ng-model="Team2">
+        </div>
+        <div class="col-md-2">
+<!--            <input type="radio" value="true" name="team" ng-model="Team_Bowling2" class="team_select">-->
+            <img src="app/img/Soccer-Ball-icon.png" ng-click="secondTeam = !secondTeam" ng-model="Team_Bowling2=secondTeam" ng-class="{fullOpacity:secondTeam}">
+        </div>
+        <div class="col-md-10">
+            <button class="btn btn-block play-button" ng-click="CreateMatch()">{{PlayNow}}</button>
+        </div>
+    </div>
+
+</div>

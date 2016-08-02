@@ -1,0 +1,35 @@
+<div class="row row-centered" ng-controller="CreateMatch">
+    {{result1}}
+    {{msg}}
+    <div class="col-md-6">
+        <div class="col-md-10">
+            India-<span>{{Run}}</span>
+        </div>
+
+    </div>
+    <div class="col-md-6">
+        <div class="col-md-10">
+            <input type="button" class="btn btn-block"  value="Bowl" ng-click="CalculateRun()">
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Ball</th>
+                        <th>Description</th>
+                        <th>Run</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="record in Record | orderBy:['-over','-ball']">
+                        <td>{{record.over}}.{{record.ball}}</td>
+                        <td>{{record.run}} Run taken</td>
+                        <td>{{record.run}} Runs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

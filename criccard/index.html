@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="CricCard">
+    <head>
+        <title>CricCard Game</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="app/styles/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 main_container">
+                    <div class="page-header">
+                        <h1>SELISE-CRICCARD</h1>
+                    </div>
+                    <div ui-view></div>
+                </div>
+            </div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+        <script src="app/controllers/app.js"></script>
+        <script src="app/controllers/route.js"></script>
+        <script src="app/controllers/Create_match.js"></script>
+        <script src="app/controllers/PlayGame.js"></script>
+        <script src="app/services/dataservice.js"></script>
+    </body>
+</html>
