@@ -1,0 +1,314 @@
+
+
+
+
+
+.header_bottom,
+.header_top,
+.fixed_top_header .bottom_header{
+	background-color: rgba(255,255,255,0);
+}
+
+
+.header_bottom,
+.header_top,
+.fixed_top_header .bottom_header{
+    border-bottom: 0;
+}
+
+.header_bottom,
+.fixed_top_header .bottom_header{
+    box-shadow: none;
+}
+
+.header_top .right .inner > div:first-child,
+.header_top .right .inner > div,
+.header_top .left .inner > div:last-child,
+.header_top .left .inner > div {
+    border: none;
+}
+
+
+
+	@media only screen and (min-width: 1000px) {
+		.content .container .container_inner.default_template_holder,
+		.content .container .container_inner.page_container_inner
+		{
+			padding-top:100px;
+		}
+	}
+
+
+
+
+
+
+.header_top,
+.fixed_top_header .top_header,
+.fixed_top_header nav.mobile_menu{
+	background-color: rgba(255,255,255,0);
+}
+
+
+
+
+
+.content{
+	margin-top: 0;
+}
+
+
+
+
+
+        header.fixed_hiding .q_logo a,
+        header.fixed_hiding .q_logo{
+            max-height: 100px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.google_map{
+	height: 750px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ .vertical_menu_float .menu-item .second{
+	left: calc(100% + 30px); /*because of the padding*/
+}
+
+.vertical_menu_hidden aside.vertical_menu_area .vertical_menu_float .menu-item .second {
+	left: calc(100% + 40px);
+}
+
+ 
+ 
+ 
+
+
+
+
+	.vertical_menu_area{
+		text-align:left;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .portfolio_main_holder .item_holder.thin_plus_only .thin_plus_only_icon {
+        font-family:     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.title .separator { width: 50px; }
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .masonry_gallery_item.square_big .masonry_gallery_item_inner .masonry_gallery_item_content{
+    text-align: center;    }
+
+
+    .masonry_gallery_item.square_small .masonry_gallery_item_inner .masonry_gallery_item_content{
+    text-align: center;    }
+
+
+    .masonry_gallery_item.rectangle_portrait .masonry_gallery_item_inner .masonry_gallery_item_content{
+    text-align: center;    }
+
+
+    .masonry_gallery_item.rectangle_landscape .masonry_gallery_item_inner .masonry_gallery_item_content{
+    text-align: center;    }
+
+
+
+
+
+
+
+

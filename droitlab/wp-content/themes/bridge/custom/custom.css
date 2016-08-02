@@ -1,0 +1,195 @@
+
+.one-third{
+    padding: 0px;
+    width: 33%;
+    float: left;
+}
+.one-third img{
+    float: left;
+    width: 30px;
+    display: inline-block;
+    height:25px;
+}
+.one-third span{
+    color: rgb(0, 0, 0);
+    width: 50px;
+    float: left;
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.one-third a.link{
+    display: block;
+    color: #ff6d02;
+    font-size: 12px;
+    line-height: 30px;
+    border: 1px solid #ffb178;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+}
+.one-third a.link:hover{
+    border: 1px solid #000;
+    color: #000;
+}
+.projects_holder article #download_part {
+    padding: 20px 20px 22px;
+    border-top: 1px solid #eeeeee !important;
+}
+.white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+}
+.open-popup-link{
+    padding: 20px;
+    background: #42c476;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.open-popup-link:hover{
+    color: #000;
+}
+.controls input,.form-actions button{
+    border: 1px solid #e3e4eb;
+    border-radius: 3px;
+    color: #b1b4c8;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.form-actions button{
+    background: #42c476;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 28px;
+    height: 60px;
+    font-weight: 700;
+}
+.text-block {
+    background: #f5f6f8;
+    padding: 20px;
+    color: #9094b0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.projects_holder.standard article .project_category{
+    min-height: 110px !important;
+}
+.projects_holder article .image_holder{
+    background: #fff;
+}
+.projects_holder .mix .image {
+    min-height: 265px;
+}
+.social_share_dropdown{
+    visibility: visible !important;
+}
+.social_share_dropdown ul li{
+    display: inline-block !important;
+    margin: 0 3px !important;
+}
+.social_share_dropdown ul{
+    width: 100% !important;
+    background: none !important;
+}
+.social_share_dropdown{
+    width: 300px !important;
+    padding: 0 !important;
+}
+.social_share_dropdown ul li i {
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    background: #000 !important;
+    border-radius: 20px !important;
+}
+.icon_social_holder{
+    margin-top: 0 !important;
+    padding: 0 !important;
+    border-bottom: 0 !important;
+    margin-bottom: 50px !important;
+}
+aside .widget.posts_holder li {
+    padding: 7px 0 7px 0;
+    margin: 0;
+}
+aside .widget ul, .side_menu .widget ul {
+    list-style: none;
+    padding: 0;
+}
+aside .widget {
+    margin: 0 0 42px;
+}
+.qode_print{
+    display: none !important;
+}
+.qode_like{
+    display: none !important;
+}
+.social_share_icon{
+    display: none !important;
+}
+.social_share_holder > a{
+    display: none !important;
+}
+.inner_arrow{
+    display: none !important;
+}
+.header_inner_right{
+    display: none !important;
+}
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-number, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-date, .cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea, .cf7_custom_style_1 select.wpcf7-form-control.wpcf7-select, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-quiz {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 268px;
+}
+.custom_load_more a{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 50px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #f07127;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    border-width: 0px;
+    padding: 20px 26px;
+}
+
+.custom_portfolio_paging, .custom_portfolio_paging_loading {
+    text-align: center;
+    margin: 40px 0 0;
+}
+.custom_portfolio_paging_loading{
+    display: none !important;
+}
+.blog_share{
+    display: none !important;
+}
